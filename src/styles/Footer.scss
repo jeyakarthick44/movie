@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.footer {
+  background: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(195, 214, 187);
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer p {
+  padding-top: 5px;
+}
