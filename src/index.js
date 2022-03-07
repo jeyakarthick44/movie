@@ -8,7 +8,9 @@ import { Provider } from "react-redux";
 import movieReducer from "./features/MovieSlice";
 
 const store = configureStore({
-  reducer: movieReducer,
+  reducer: {
+    movies: movieReducer,
+  },
 });
 
 ReactDOM.render(
