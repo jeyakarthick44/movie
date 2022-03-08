@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-evenly;
   padding: 40px 0px;
-  color: wheat;
+  color: rgb(255, 253, 250);
   font-weight: 400;
 }
 
 .movie-rating {
   padding-left: 3px;
   margin-top: 20px;
-  color: wheat;
+  color: rgb(247, 245, 241);
   display: flex;
   span {
     margin-right: 20px;
@@ -27,18 +27,18 @@
 
 .movie-info > div span:first-child {
   padding: 10px 0px;
-  color: red;
+  color: rgb(245, 240, 240);
   font-weight: 600;
   width: 100px;
   display: inline-block;
 }
 
 .movie-info > div span {
-  color: orange;
+  color: rgb(91, 141, 71);
 }
 
 .fa-star {
-  color: #ff9e00;
+  color: #fcfaf8;
 }
 .fa-thumbs-up {
   color: #fafafa;
@@ -49,7 +49,7 @@
 }
 
 .fa-calendar {
-  color: peachpuff;
+  color: rgb(243, 238, 234);
 }
 
 .section-right {
